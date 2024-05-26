@@ -1,7 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://cnimv2l8fae58"]
+[gd_scene load_steps=21 format=3 uid="uid://cnimv2l8fae58"]
 
 [ext_resource type="Script" path="res://scripts/guy_man.gd" id="1_xjuxd"]
 [ext_resource type="Texture2D" uid="uid://drmm68br43av7" path="res://assets/textures/player_walking-Sheet.png" id="1_ysvsl"]
+[ext_resource type="PackedScene" uid="uid://ty7q1ovqrl8w" path="res://scenes/basic_sword.tscn" id="3_a00yf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pi5hx"]
 atlas = ExtResource("1_ysvsl")
@@ -131,3 +132,6 @@ frame_progress = 0.495057
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -16)
 shape = SubResource("RectangleShape2D_alqso")
+
+[node name="basic_sword" parent="." instance=ExtResource("3_a00yf")]
+position = Vector2(2, -10)
