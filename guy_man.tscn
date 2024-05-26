@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://cnimv2l8fae58"]
 
-[ext_resource type="Script" path="res://guy_man.gd" id="1_xjuxd"]
+[ext_resource type="Script" path="res://scripts/guy_man.gd" id="1_xjuxd"]
 [ext_resource type="Texture2D" uid="uid://drmm68br43av7" path="res://assets/textures/player_walking-Sheet.png" id="1_ysvsl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pi5hx"]

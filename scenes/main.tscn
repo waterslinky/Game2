@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cutfemkrtv4hb"]
 
-[ext_resource type="PackedScene" path="res://guy_man.tscn" id="1_k7nrh"]
+[ext_resource type="PackedScene" uid="uid://cnimv2l8fae58" path="res://guy_man.tscn" id="1_k7nrh"]
 [ext_resource type="Texture2D" uid="uid://2pjskwq8r4jg" path="res://assets/textures/tiles-export.png" id="2_w3j0c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fyy22"]
@@ -82,6 +82,7 @@ sources/0 = SubResource("TileSetAtlasSource_fyy22")
 
 [node name="Guy_man" parent="." instance=ExtResource("1_k7nrh")]
 position = Vector2(1, 1)
+JUMP_VELOCITY = -275.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-4, -16)
