@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cutfemkrtv4hb"]
+[gd_scene load_steps=6 format=3 uid="uid://cutfemkrtv4hb"]
 
 [ext_resource type="PackedScene" uid="uid://cnimv2l8fae58" path="res://scenes/guy_man.tscn" id="1_k7nrh"]
 [ext_resource type="Texture2D" uid="uid://2pjskwq8r4jg" path="res://assets/textures/tiles-export.png" id="2_w3j0c"]
+[ext_resource type="PackedScene" uid="uid://blalghfmoq0m1" path="res://scenes/enemy.tscn" id="3_62lav"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fyy22"]
 texture = ExtResource("2_w3j0c")
@@ -92,3 +93,6 @@ zoom = Vector2(2.7, 2.7)
 tile_set = SubResource("TileSet_avsd2")
 format = 2
 layer_0/tile_data = PackedInt32Array(131066, 0, 0, 131067, 0, 0, 131068, 0, 0, 131069, 0, 0, 131070, 0, 0, 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 16, 0, 0, 17, 0, 0, 18, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 65535, 0, 0, 65534, 0, 0, 65533, 0, 0, 65532, 0, 0, 65531, 0, 0, 65530, 0, 0, 65529, 0, 0, 65528, 0, 0, 65527, 0, 0, 65526, 0, 0, 65525, 0, 0, 65524, 0, 0, -196604, 0, 0, -196603, 0, 0, -196602, 0, 0, -196601, 0, 0, -196600, 0, 0, -196599, 0, 0, -196598, 0, 0, -196597, 0, 0, -393200, 0, 0, -393201, 0, 0, -393202, 0, 0, -393203, 0, 0, -393204, 0, 0, -327681, 0, 0, -327682, 0, 0, -327683, 0, 0, -327684, 0, 0, -327685, 0, 0)
+
+[node name="enemy" parent="." instance=ExtResource("3_62lav")]
+position = Vector2(64, -24)
