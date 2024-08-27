@@ -1,1 +1,1 @@
-{"name":"button","x":0,"y":200,"sizeX":50,"sizeY":444,"style":{"color":"rgb(100,0,255)"},"_id":"222183095705778"}
+{"name":"main","elements":[{"name":"button","x":0,"y":200,"sizeX":50,"sizeY":444,"style":{"color":"rgb(100,0,255)"},"_id":"222183095705778"}]}
