@@ -1,1 +1,1 @@
-{"name":"main","elements":[{"name":"button","x":0,"y":0,"sizeX":20,"sizeY":20},{"name":"button","x":10,"y":0,"sizeX":200,"sizeY":200},{"name":"button","x":10,"y":0,"sizeX":200,"sizeY":200}]}
+{"name":"main","elements":[{"name":"button","x":0,"y":0,"sizeX":20,"sizeY":20}]}
